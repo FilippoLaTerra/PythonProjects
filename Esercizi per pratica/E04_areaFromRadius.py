@@ -1,6 +1,5 @@
 
-
-PI = 3.148
+from math import pi
 
 def getInput():
 
@@ -20,6 +19,6 @@ def getInput():
 
 raggio = getInput()
 
-area = PI * (raggio * raggio)
+area = pi * (raggio **2)
 
 print(area)
