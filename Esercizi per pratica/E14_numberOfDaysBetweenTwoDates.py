@@ -87,4 +87,7 @@ def get_date():
 date1 = get_date()
 print(date1.toString())
 
+date2= get_date()
+print(date2.toString())
+
 
